@@ -1,0 +1,201 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+/*Estilos Globales*/
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.boton1 {
+    height: 38px;
+    background: #ff4e0d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+
+/*Encabezado estilos  */
+
+header {
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-float-edge: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #marca {
+    float: left;
+}
+
+header #marca h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .resaltado,
+header .actual a {
+    color: #1293d4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+
+/*Cabzera de imagen*/
+
+#cabecera {
+    min-height: 300px;
+    background: url('../image/Picture3.png') no-repeat 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#cabecera h1 {
+    margin-top: 150px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#cabecera p {
+    font-size: 20px;
+}
+
+
+/*Formulario 1*/
+
+#boletin {
+    padding: 15px;
+    color: #fff;
+    background: #24282b;
+}
+
+#boletin h1 {
+    float: left;
+}
+
+#boletin form {
+    float: right;
+    margin-top: 15px;
+}
+
+#boletin input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+/* CAJAS */
+
+#cajas {
+    margin-top: 20px;
+}
+
+#cajas .caja {
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+}
+
+#cajas .caja image {
+    width: 75px;
+}
+
+
+/* LATERAL*/
+
+aside#lateral {
+    float: right;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.oscuro {
+    padding: 15px;
+    background-color: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*MAIN-COL */
+
+article#main-col {
+    float: left;
+    width: 55%;
+}
+
+
+/* SERVICIOS*/
+
+ul#servicios li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+/*  PIE DE PAGINA*/
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1293d4;
+    text-align: center;
+}
+
+
+/* Formulario de Contacto*/
+
+input,
+textarea {
+    width: 200px;
+    height: 45px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 120px;
+}
